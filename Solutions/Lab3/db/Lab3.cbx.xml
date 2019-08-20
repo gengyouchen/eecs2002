@@ -1,0 +1,20 @@
+<?xml version="1.0" ?>
+<LOG_ROOT>
+	<PROJECT NAME="Lab3">
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|on_chip_memory:the_on_chip_memory|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_q0c1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_bht_module:CPU_bht|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_pkf1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_dc_data_module:CPU_dc_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_29f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_dc_tag_module:CPU_dc_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_p9f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_dc_victim_module:CPU_dc_victim|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_9vc1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_nios2_oci:the_CPU_nios2_oci|CPU_nios2_oci_im:the_CPU_nios2_oci_im|CPU_traceram_lpm_dram_bdp_component_module:CPU_traceram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_e502.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_nios2_oci:the_CPU_nios2_oci|CPU_nios2_ocimem:the_CPU_nios2_ocimem|CPU_ociram_lpm_dram_bdp_component_module:CPU_ociram_lpm_dram_bdp_component|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_t072.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_register_bank_a_module:CPU_register_bank_a|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_p2f1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|JTAG_controller:the_JTAG_controller|JTAG_controller_scfifo_w:the_JTAG_controller_scfifo_w|scfifo:wfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_mult_cell:the_CPU_mult_cell|altmult_add:the_altmult_add_part_1" CBX_FILE_NAME="mult_add_4cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|JTAG_controller:the_JTAG_controller|JTAG_controller_scfifo_r:the_JTAG_controller_scfifo_r|scfifo:rfifo" CBX_FILE_NAME="scfifo_1n21.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_ic_data_module:CPU_ic_data|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_qed1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_ic_tag_module:CPU_ic_tag|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_41g1.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_mult_cell:the_CPU_mult_cell|altmult_add:the_altmult_add_part_2" CBX_FILE_NAME="mult_add_6cr2.tdf"/>
+		<CBX_INST_ENTRY INSTANCE_NAME="|Lab3|Lab3_SOPC:sopc_module|CPU:the_CPU|CPU_register_bank_b_module:CPU_register_bank_b|altsyncram:the_altsyncram" CBX_FILE_NAME="altsyncram_q2f1.tdf"/>
+	</PROJECT>
+</LOG_ROOT>

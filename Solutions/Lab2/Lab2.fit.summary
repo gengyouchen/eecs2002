@@ -1,0 +1,16 @@
+Fitter Status : Successful - Thu Apr 07 16:08:21 2011
+Quartus II Version : 10.1 Build 197 01/19/2011 SP 1 SJ Full Version
+Revision Name : Lab2
+Top-level Entity Name : Lab2
+Family : Cyclone II
+Device : EP2C70F896C6
+Timing Models : Final
+Total logic elements : 4,850 / 68,416 ( 7 % )
+    Total combinational functions : 4,140 / 68,416 ( 6 % )
+    Dedicated logic registers : 2,997 / 68,416 ( 4 % )
+Total registers : 3332
+Total pins : 530 / 622 ( 85 % )
+Total virtual pins : 0
+Total memory bits : 305,472 / 1,152,000 ( 27 % )
+Embedded Multiplier 9-bit elements : 4 / 300 ( 1 % )
+Total PLLs : 1 / 4 ( 25 % )

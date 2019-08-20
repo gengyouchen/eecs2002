@@ -1,0 +1,118 @@
+Flow report for Lab3
+Tue May 10 01:14:30 2011
+Quartus II Version 10.1 Build 197 01/19/2011 Service Pack 1 SJ Full Version
+
+
+---------------------
+; Table of Contents ;
+---------------------
+  1. Legal Notice
+  2. Flow Summary
+  3. Flow Settings
+  4. Flow Non-Default Global Settings
+  5. Flow Elapsed Time
+  6. Flow OS Summary
+  7. Flow Log
+
+
+
+----------------
+; Legal Notice ;
+----------------
+Copyright (C) 1991-2011 Altera Corporation
+Your use of Altera Corporation's design tools, logic functions 
+and other software and tools, and its AMPP partner logic 
+functions, and any output files from any of the foregoing 
+(including device programming or simulation files), and any 
+associated documentation or information are expressly subject 
+to the terms and conditions of the Altera Program License 
+Subscription Agreement, Altera MegaCore Function License 
+Agreement, or other applicable license agreement, including, 
+without limitation, that your use is for the sole purpose of 
+programming logic devices manufactured by Altera and sold by 
+Altera or its authorized distributors.  Please refer to the 
+applicable agreement for further details.
+
+
+
++-------------------------------------------------------------------------------------+
+; Flow Summary                                                                        ;
++------------------------------------+------------------------------------------------+
+; Flow Status                        ; Successful - Tue May 10 01:14:29 2011          ;
+; Quartus II Version                 ; 10.1 Build 197 01/19/2011 SP 1 SJ Full Version ;
+; Revision Name                      ; Lab3                                           ;
+; Top-level Entity Name              ; Lab3                                           ;
+; Family                             ; Cyclone II                                     ;
+; Total logic elements               ; 5,128 / 68,416 ( 7 % )                         ;
+;     Total combinational functions  ; 4,413 / 68,416 ( 6 % )                         ;
+;     Dedicated logic registers      ; 3,092 / 68,416 ( 5 % )                         ;
+; Total registers                    ; 3427                                           ;
+; Total pins                         ; 530 / 622 ( 85 % )                             ;
+; Total virtual pins                 ; 0                                              ;
+; Total memory bits                  ; 305,472 / 1,152,000 ( 27 % )                   ;
+; Embedded Multiplier 9-bit elements ; 4 / 300 ( 1 % )                                ;
+; Total PLLs                         ; 1 / 4 ( 25 % )                                 ;
+; Device                             ; EP2C70F896C6                                   ;
+; Timing Models                      ; Final                                          ;
++------------------------------------+------------------------------------------------+
+
+
++-----------------------------------------+
+; Flow Settings                           ;
++-------------------+---------------------+
+; Option            ; Setting             ;
++-------------------+---------------------+
+; Start date & time ; 05/10/2011 01:13:11 ;
+; Main task         ; Compilation         ;
+; Revision Name     ; Lab3                ;
++-------------------+---------------------+
+
+
++-------------------------------------------------------------------------------------------------------------------+
+; Flow Non-Default Global Settings                                                                                  ;
++-------------------------------------+----------------------------------+---------------+-------------+------------+
+; Assignment Name                     ; Value                            ; Default Value ; Entity Name ; Section Id ;
++-------------------------------------+----------------------------------+---------------+-------------+------------+
+; COMPILER_SIGNATURE_ID               ; 79556651636520.130496119105204   ; --            ; --          ; --         ;
+; PARTITION_COLOR                     ; 16764057                         ; --            ; --          ; Top        ;
+; PARTITION_FITTER_PRESERVATION_LEVEL ; PLACEMENT_AND_ROUTING            ; --            ; --          ; Top        ;
+; PARTITION_NETLIST_TYPE              ; SOURCE                           ; --            ; --          ; Top        ;
+; SOPC_BUILDER_SIGNATURE_ID           ; 00000000000000E00000012FD5BC1D04 ; --            ; --          ; --         ;
++-------------------------------------+----------------------------------+---------------+-------------+------------+
+
+
++-------------------------------------------------------------------------------------------------------------------------------+
+; Flow Elapsed Time                                                                                                             ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Module Name               ; Elapsed Time ; Average Processors Used ; Peak Virtual Memory ; Total CPU Time (on all processors) ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+; Analysis & Synthesis      ; 00:00:33     ; 1.0                     ; 351 MB              ; 00:00:34                           ;
+; Fitter                    ; 00:00:32     ; 1.9                     ; 480 MB              ; 00:00:38                           ;
+; Assembler                 ; 00:00:05     ; 1.0                     ; 391 MB              ; 00:00:05                           ;
+; TimeQuest Timing Analyzer ; 00:00:06     ; 2.2                     ; 363 MB              ; 00:00:08                           ;
+; Total                     ; 00:01:16     ; --                      ; --                  ; 00:01:25                           ;
++---------------------------+--------------+-------------------------+---------------------+------------------------------------+
+
+
++----------------------------------------------------------------------------------------+
+; Flow OS Summary                                                                        ;
++---------------------------+------------------+-----------+------------+----------------+
+; Module Name               ; Machine Hostname ; OS Name   ; OS Version ; Processor type ;
++---------------------------+------------------+-----------+------------+----------------+
+; Analysis & Synthesis      ; u9760111         ; Windows 7 ; 6.1        ; x86_64         ;
+; Fitter                    ; u9760111         ; Windows 7 ; 6.1        ; x86_64         ;
+; Assembler                 ; u9760111         ; Windows 7 ; 6.1        ; x86_64         ;
+; TimeQuest Timing Analyzer ; u9760111         ; Windows 7 ; 6.1        ; x86_64         ;
++---------------------------+------------------+-----------+------------+----------------+
+
+
+------------
+; Flow Log ;
+------------
+quartus_map --read_settings_files=on --write_settings_files=off Lab3 -c Lab3
+quartus_fit --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
+quartus_asm --read_settings_files=off --write_settings_files=off Lab3 -c Lab3
+quartus_sta Lab3 -c Lab3
+
+
+

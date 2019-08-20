@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preferences>
+ <debug showDebugMenu="0" />
+ <systemtable filter="Default">
+  <columns>
+   <opcodeName visible="0" />
+   <connections preferredWidth="79" />
+   <irq preferredWidth="34" />
+   <export visible="0" />
+   <name preferredWidth="235" />
+   <description preferredWidth="177" />
+   <inputclock preferredWidth="116" />
+  </columns>
+ </systemtable>
+ <clocktable>
+  <columns>
+   <clockname preferredWidth="140" />
+   <clocksource preferredWidth="140" />
+   <frequency preferredWidth="120" />
+  </columns>
+ </clocktable>
+ <window width="968" height="600" x="128" y="148" />
+ <library expandedCategories="Project,Library/EECS2002,Library" />
+</preferences>

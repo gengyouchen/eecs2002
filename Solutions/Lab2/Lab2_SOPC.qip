@@ -1,0 +1,30 @@
+# clock_from_board
+# PLL
+set_global_assignment -name TCL_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_altpll/altera_avalon_altpll_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) PLL.v]
+# on_chip_memory
+# SSRAM_controller
+# SDRAM_controller
+# Flash_controller
+# CPU
+set_global_assignment -name SDC_FILE [file join $::quartus(qip_path) CPU.sdc]
+set_global_assignment -name SOURCE_FILE [file join $::quartus(qip_path) CPU.ocp]
+# SSRAM_bridge
+# Flash_bridge
+# JTAG_controller
+# LCD_controller
+# toggle_switches_controller
+# push_button_switches_controller
+# red_LEDs_controller
+# green_LEDs_controller
+# system_clock_timer
+# timestamp_timer
+# sysid
+# null
+set_global_assignment -name SDC_FILE [file join $::quartus(ip_rootpath) altera/sopc_builder_ip/altera_avalon_clock_adapter/altera_avalon_clock_adapter.sdc]
+# seven_segment_displays_controller
+set_global_assignment -name TCL_FILE [file join $::quartus(qip_path) seg7_hw.tcl]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) seg7.v]
+set_global_assignment -name VERILOG_FILE [file join $::quartus(qip_path) seven_segment_displays_controller.v]
+set_global_assignment -name SOPC_BUILDER_SIGNATURE_ID 485B39F5D7280000012F2EFCF92D 
+ 
